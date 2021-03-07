@@ -10,10 +10,9 @@ public class AppStart
     
     public static void main(String args[]) {
         int ordem = 1;
-        String name = "MEDIUM ";
         Size Medium = Size.MEDIUM;
-        System.out.println("Name: " + name );
-        System.out.println("tostring(): " + Medium.toString());
+        System.out.println("Name: " + Medium.toString() );
+        System.out.println("tostring(): " + Medium.getDescription());
         System.out.println("Ordem: " + ordem);
         System.out.println("Valor Minimo: " + Medium.getMinValue());
         System.out.println("Valor Maximo: " + Medium.getMaxValue());
